@@ -21,7 +21,7 @@ public class MainToDoList {
                         "5. Mostrar tareas completas."+"\n"+
                         "6. Mostrar tareas pendientes."+"\n"+
                         "7. Salir.");
-                System.out.print("Ingresa una opcion: ");
+                System.out.print("Ingresa una opcion valida: ");
                 String opcion = input.nextLine();
 
                 if(esNumerico(opcion)){
